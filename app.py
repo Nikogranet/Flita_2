@@ -1,5 +1,4 @@
 import graphviz
-import networkx as net
 
 with open("list.txt", 'r') as file:
     graph_data = graphviz.Graph()
@@ -17,6 +16,6 @@ with open("list.txt", 'r') as file:
         else:
             print("You should enter 1 or 2 tops in every line")
             const = 1
-
+            
     print(graph)
 graph_data.view()
