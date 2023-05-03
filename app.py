@@ -11,7 +11,7 @@ with open("list.txt", 'r') as file:
             graph_data.edge(top[0],top[1])
             graph.append(top)
         elif len(top) == 1:
-            graph_data.edge(top[0])
+            graph_data.node(top[0])
             graph.append(top)
         else:
             print("You should enter 1 or 2 tops in every line")
